@@ -37,14 +37,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="user-menu">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-user"></i> My Account</a></li>
-                            <li><a href="#"><i class="fa fa-heart"></i> Wishlist</a></li>
-                            <li><a href="cart.aspx"><i class="fa fa-user"></i> My Cart</a></li>
-                            <li><a href="checkout.aspx"><i class="fa fa-user"></i> Checkout</a></li>
-                            <li><a href="client.aspx"><i class="fa fa-user"></i> Client</a></li>
-                            <li><a href="#"><i class="fa fa-user"></i> Login</a></li>
-                        </ul>
+                        
                         <ul>
                             <li><a href="client.aspx"><i class="fa fa-user"></i> Client</a></li>
                             <li><a href="purchase.aspx"><i class="fa fa-user"></i> Purchase</a></li>
@@ -86,15 +79,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="logo">
-                        <h1><a href="./"><img src="Images/logo.png"></a></h1>
-                    </div>
+                    
                 </div>
                 
                 <div class="col-sm-6">
-                    <div class="shopping-item">
-                        <a href="cart.aspx">Cart - <span class="cart-amunt">$100</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -112,16 +101,7 @@
                     </button>
                 </div> 
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="Default.aspx">Home</a></li>
-                        <li><a href="shop.aspx">Shop page</a></li>
-                        <li><a href="single-product.aspx">Single product</a></li>
-                        <li><a href="cart.aspx">Cart</a></li>
-                        <li><a href="checkout.aspx">Checkout</a></li>
-                        <li><a href="#">Category</a></li>
-                        <li><a href="#">Others</a></li>
-                        <li><a href="contact.aspx">Contact</a></li>
-                    </ul>
+                    
                 </div>  
             </div>
         </div>
@@ -132,45 +112,7 @@
 			<div class="block-slider block-slider4">
 				<ul class="" id="bxslider-home4">
 					<li>
-						<img src="Images/h4-slide.png" alt="Slide">
-						<div class="caption-group">
-							<h2 class="caption title">
-								iPhone <span class="primary">6 <strong>Plus</strong></span>
-							</h2>
-							<h4 class="caption subtitle">Dual SIM</h4>
-							<a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
-						</div>
-					</li>
-					<li><img src="Images/h4-slide2.png" alt="Slide">
-						<div class="caption-group">
-							<h2 class="caption title">
-								by one, get one <span class="primary">50% <strong>off</strong></span>
-							</h2>
-							<h4 class="caption subtitle">school supplies & backpacks.*</h4>
-							<a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
-						</div>
-					</li>
-					<li><img src="Images/h4-slide3.png" alt="Slide">
-						<div class="caption-group">
-							<h2 class="caption title">
-								Apple <span class="primary">Store <strong>Ipod</strong></span>
-							</h2>
-							<h4 class="caption subtitle">Select Item</h4>
-							<a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
-						</div>
-					</li>
-					<li><img src="Images/h4-slide4.png" alt="Slide">
-						<div class="caption-group">
-						  <h2 class="caption title">
-								Apple <span class="primary">Store <strong>Ipod</strong></span>
-							</h2>
-							<h4 class="caption subtitle">& Phone</h4>
-							<a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
-						</div>
-					</li>
-				</ul>
-			</div>
-			<!-- ./Slider -->
+						
     </div> <!-- End slider area -->
     
     <div class="promo-area">
