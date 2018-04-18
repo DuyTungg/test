@@ -195,7 +195,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="single-promo promo4">
+                    <div class="single-promo promo4" style="background-color:#020219">
                         <i class="fa fa-gift"></i>
                         <p>New products</p>
                     </div>
