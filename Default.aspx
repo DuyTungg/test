@@ -125,8 +125,8 @@
                         <p>30 Days return</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="single-promo promo2">
+                <div class="col-md-3 col-sm-6" style="background-color:red">
+                    <div class="single-promo promo2"style="background-color:red">
                         <i class="fa fa-truck"></i>
                         <p>Free shipping</p>
                     </div>
