@@ -177,7 +177,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
-                    <div class="single-promo promo1" style="background-color:#f00">
+                    <div class="single-promo promo1" style="background-color:#ffd800">
                         <i class="fa fa-refresh"></i>
                         <p>30 Days return</p>
                     </div>
