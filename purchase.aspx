@@ -131,7 +131,7 @@
 			<div class="block-slider block-slider4">
 				<ul class="" id="bxslider-home4">
 					<li>
-						<img src="Images/h4-slide.png" alt="Slide">
+						<img src="Images/d.jpg" alt="Slide" style="height:600">
 						<div class="caption-group">
 							<h2 class="caption title">
 								iPhone <span class="primary">6 <strong>Plus</strong></span>
@@ -140,7 +140,7 @@
 							<a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
 						</div>
 					</li>
-					<li><img src="Images/h4-slide2.png" alt="Slide">
+					<li><img src="Images/dd.jpg" alt="Slide">
 						<div class="caption-group">
 							<h2 class="caption title">
 								by one, get one <span class="primary">50% <strong>off</strong></span>
@@ -177,13 +177,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
-                    <div class="single-promo promo1">
+                    <div class="single-promo promo1" style="background-color:#f00">
                         <i class="fa fa-refresh"></i>
                         <p>30 Days return</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="single-promo promo2">
+                    <div class="single-promo promo2" style="background-color:#00ff21">
                         <i class="fa fa-truck"></i>
                         <p>Free shipping</p>
                     </div>
