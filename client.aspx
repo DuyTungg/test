@@ -30,7 +30,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body style="background-color:#00ffff">
+  <body style="background-color:#4cff00">
    
     <div class="header-area">
         <div class="container">
