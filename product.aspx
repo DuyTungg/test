@@ -221,7 +221,64 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="brand-wrapper">
-                        
+                        <asp:FormView ID="FormView2" runat="server" DataKeyNames="Id" DataSourceID="SqlDataSource1">
+                            <EditItemTemplate>
+                                Id:
+                                <asp:Label ID="IdLabel1" runat="server" Text='<%# Eval("Id") %>' />
+                                <br />
+                                Full_name:
+                                <asp:TextBox ID="Full_nameTextBox" runat="server" Text='<%# Bind("Full_name") %>' />
+                                <br />
+                                Email:
+                                <asp:TextBox ID="EmailTextBox" runat="server" Text='<%# Bind("Email") %>' />
+                                <br />
+                                <asp:LinkButton ID="UpdateButton" runat="server" CausesValidation="True" CommandName="Update" Text="Update" />
+                                &nbsp;<asp:LinkButton ID="UpdateCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
+                            </EditItemTemplate>
+                            <InsertItemTemplate>
+                                Id:
+                                <asp:TextBox ID="IdTextBox" runat="server" Text='<%# Bind("Id") %>' />
+                                <br />
+                                Full_name:
+                                <asp:TextBox ID="Full_nameTextBox" runat="server" Text='<%# Bind("Full_name") %>' />
+                                <br />
+                                Email:
+                                <asp:TextBox ID="EmailTextBox" runat="server" Text='<%# Bind("Email") %>' />
+                                <br />
+                                <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Insert" />
+                                &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
+                            </InsertItemTemplate>
+                            <ItemTemplate>
+                                Id:
+                                <asp:Label ID="IdLabel" runat="server" Text='<%# Eval("Id") %>' />
+                                <br />
+                                Full_name:
+                                <asp:Label ID="Full_nameLabel" runat="server" Text='<%# Bind("Full_name") %>' />
+                                <br />
+                                Email:
+                                <asp:Label ID="EmailLabel" runat="server" Text='<%# Bind("Email") %>' />
+                                <br />
+                                <asp:LinkButton ID="EditButton" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit" />
+                                &nbsp;<asp:LinkButton ID="DeleteButton" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete" />
+                                &nbsp;<asp:LinkButton ID="NewButton" runat="server" CausesValidation="False" CommandName="New" Text="New" />
+                            </ItemTemplate>
+                        </asp:FormView>  
+                                             
+                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString2 %>" DeleteCommand="DELETE FROM [Client] WHERE [Id] = @Id" InsertCommand="INSERT INTO [Client] ([Id], [Full_name], [Email]) VALUES (@Id, @Full_name, @Email)" SelectCommand="SELECT [Id], [Full_name], [Email] FROM [Client]" UpdateCommand="UPDATE [Client] SET [Full_name] = @Full_name, [Email] = @Email WHERE [Id] = @Id">
+                            <DeleteParameters>
+                                <asp:Parameter Name="Id" Type="Int32" />
+                            </DeleteParameters>
+                            <InsertParameters>
+                                <asp:Parameter Name="Id" Type="Int32" />
+                                <asp:Parameter Name="Full_name" Type="String" />
+                                <asp:Parameter Name="Email" Type="String" />
+                            </InsertParameters>
+                            <UpdateParameters>
+                                <asp:Parameter Name="Full_name" Type="String" />
+                                <asp:Parameter Name="Email" Type="String" />
+                                <asp:Parameter Name="Id" Type="Int32" />
+                            </UpdateParameters>
+                        </asp:SqlDataSource>
                                              
                     </div>
                 </div>
